@@ -1,0 +1,1114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    font-family: Roboto, sans-serif;
+}
+
+.header{
+    height: 48px;
+    background: white;
+    display: block;
+
+    border-bottom: 1px solid black;
+}
+.header_list{
+    position: relative;
+}
+
+.about{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+    text-decoration: none;
+
+    position: absolute;
+    width: 67px;
+    height: 28px;
+    left: 10px;
+    top: 20px;
+}
+
+.about:hover{
+    text-decoration: line-through ;
+    font-weight: 400; 
+}
+
+.about:active{
+    text-decoration: line-through ;
+    font-weight: 400;
+}
+
+.project{
+    position: absolute;
+    width: 111px;
+    height: 28px;
+    left: 99px;
+    top: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.project:active{
+    text-decoration: line-through ;
+    font-weight: 400;
+}
+
+.cont{
+    position: absolute;
+    width: 89px;
+    height: 28px;
+    left: 221px;
+    top: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.cont:active{
+    text-decoration: line-through ;
+    font-weight: 400;
+}
+
+.front_page{
+    height: 440px;
+    background: fff;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 214px;
+    height: 224px;
+
+    padding-left: 48px;
+    padding-right: 38px;
+    padding-top: 60px;
+
+    margin: 0 auto;
+
+    background-image: url(Paints/Gradient.png);
+    background-size: cover; 
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.letter{
+    width: 100%;
+    height: 100%;
+}
+
+.letter_s{
+    width: 91px;
+    height: 97px;
+
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 5px;
+
+    transition: width .5s ease, height .5s ease;
+}
+
+
+.moon_wrapper{
+    display: inline-block;
+}
+.moon{
+    width: 119px;
+    height: 119px;
+    left: 157px;
+    top: 55px;
+    display: inline-block;
+
+    background-image: url(Paints/moon.png);
+    background-size: cover;
+
+    transition: width .5s ease, height .5s ease;
+}
+
+
+.moon:hover{
+    animation-duration: 3s;
+    animation-name: slidein;
+    transform: perspective(1px) translateZ(0);
+    overflow: hidden;
+    transition-duration: 0.3s;
+}
+
+@keyframes slidein{
+    
+    25%{
+        background-image: url(Paints/catP.png)
+    }
+
+    50%{
+        background-image: url(Paints/don.png)
+    }
+
+    75%{
+        background-image: url(Paints/pizza.png)
+    }
+
+    100%{
+        background-image: url(Paints/sis.png)
+    }
+}
+
+
+
+.letter_n{
+    width: 90.9px;
+    height: 97.39px;
+
+    margin-right: 7px;
+
+    transition: width .5s ease, height .5s ease;
+}
+
+.letter_ia{
+    width: 90.9px;
+    height: 97.39px;
+    transition: width .5s ease, height .5s ease;
+}
+
+
+.text_web-designer{
+    width: 208px;
+    height: 28px;
+
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    line-height: normal;
+    
+    letter-spacing: 0.2em;
+    color: #000000;
+    
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 24px;
+    margin: 0 auto;
+}
+
+.about_me{
+    padding: 20px 0 28px;
+    background: #111113;
+}
+
+.h2{
+    width: 100%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+
+    color: #FFFFFF;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.text-photo__wrapper{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.my_photo{
+    left: 15px;
+    top: 63px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 15px 0 0;
+}
+
+.text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bottom{
+    color: #FFFFFF;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    display: block;
+
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.bottom:hover{
+    color: cyan;
+}
+
+
+
+.text, .bottom{
+    margin-top: 15px;
+}
+
+
+.padding-site{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.projekt{
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    text-decoration: none;
+
+}
+
+.photo-projekt-sendit{
+    background-image: url(Paints/sendit.jpg);
+    width: 300px;
+    background-size: cover;
+}
+
+.project-1:active{
+    background-image: url(Paints/sendit-color.jpg)
+}
+.photo-projekt{
+    height: 300px;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.text_block{
+    background: #7CEEFE;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+
+    height: 87px;
+}
+
+.text_block_1{
+    margin-bottom: -24px;
+}
+
+.h3_projekt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    
+    color: #111113;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+.p_projekt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    
+    color: #111113;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.photo-projekt-hotel{
+    background-image: url(Paints/hotel.jpg);
+    width: 300px;
+    background-size: cover;
+    transition: 0,3s;
+}
+
+.photo-projekt-hotel:active{
+    background-image: url(Paints/hotel-color.jpg);
+    transition: 1s;
+}
+
+
+.photo-projekt-hotel:hover{
+    background-image: url(Paints/hotel-color.jpg);
+}
+
+.photo-projekt-yandex{
+    background-image: url(Paints/Buhf.jpg);
+    width: 300px; 
+    background-size: cover;
+}
+
+.photo-projekt-yandex:hover{
+    background-image: url(Paints/Buhf-color.jpg)
+}
+.photo-projekt-cat{
+    background-image: url(Paints/cat.jpg);
+    width: 300px;
+    background-size: cover;
+}
+
+.photo-projekt-cat:hover{
+    background-image: url(Paints/cat-color.jpg);
+}
+
+.h2_White{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+    
+    color: #000000;
+    text-align: center;
+
+    padding-top: 16px; 
+}
+
+.footer{
+    background: #111113; 
+    margin-top: 20px; 
+}
+
+.h2_cont{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.blok_contacts{
+    padding-bottom: 16px;
+    padding-top: 16 px;  
+}
+.icon{
+    height: 58px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.icon_mail{
+    background-image: url(Paints/icon_mail.png);
+    width: 58px;
+}
+
+.name_cont{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    padding: 12px;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.icon_vk{
+    background-image: url(Paints/icon_vk.png);
+    width: 58px;
+}
+
+.icon_instagramm{
+    background-image: url(Paints/instagramm.png);
+    width: 58px;
+}
+
+.icon_telegram{
+    background-image: url(Paints/telegram.png);
+    width: 58px;
+}
+
+@media screen and (min-width: 768px) {
+    .padding-site{
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    .top{
+        height: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .header__list{
+        display: flex;
+    }
+    .about{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: normal;
+        letter-spacing: 0.1em;
+        
+        color: #000000;
+        
+        left: 62px;
+        width: 88px;
+        top: 12px;
+        text-decoration: none;
+    }
+
+    .project{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 0.1em;
+        
+        color: #000000;
+
+        left: 184px;
+        width: 131px;
+        top: 12px;
+        text-decoration: none;
+
+    }
+
+    .cont{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 0.1em;
+        
+        color: #000000;  
+        left: 334px;
+        width: 121px;
+        top: 12px;
+        text-decoration: none;  
+    }
+
+    .wrapp_cont{
+        list-style-type: none;
+    }
+
+    .wrapp_about{
+        list-style-type: none;
+    }
+
+    .wrapp_project{
+        list-style-type: none;
+    }
+
+    .front_page{
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 832px;
+        padding: 1px;
+    }
+
+    .logo{
+        height: 170px;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        background-image: url(Paints/Gradient_1.png);
+
+        margin-top: 299px;
+        padding-top: 0px;
+
+
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+        align-items: center;
+  
+        align-content: space-around
+    }
+
+    .letter_s{
+        height: 126px;
+        width: 118px;
+        padding-bottom: 0px;
+        padding-right: 20px;
+    }
+
+    .moon{
+        height: 170px;
+        width: 170px;
+        margin-right: 20px;
+    }
+
+    .letter_n{
+        height: 126px;
+        width: 118px;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .letter_ia{
+        height: 126px;
+        width: 118px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .text_web-designer{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .h2{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: normal;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+    }
+
+    .text-photo__wrapper{
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+
+
+
+    }
+
+    .my_photo{
+        width: 300px;
+        height: 279px;
+        padding-right: 20px;
+    }
+
+    .text{
+        width: 300px;
+        display: block;
+        text-align: -webkit-auto;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+
+
+    }
+
+    .my_photo, .text{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .bottom{
+        margin-top: 30px;
+    }
+
+    .footer{
+        margin-top: 80px;
+    }
+
+    .My_project{
+       display: block;
+       margin-top: 30px;
+    }
+
+    .h2_White{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: normal;
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    .projekt{
+        display: inline-block;
+    }
+    
+    .container{
+        text-align: center;
+        margin-right: -20px;
+    }
+
+    .text_block{
+        text-align: left;
+    }
+
+    .projekt{
+        margin-right: 20px
+    }
+
+    .blok_contacts{
+        display: inline-block; 
+
+        margin-right: 42px;
+        padding-bottom: 54px;
+
+    }
+
+    .icon{
+        display: inline-block;  
+        vertical-align: middle;
+    }
+
+    .name_cont{
+        display: inline-block; 
+    }
+
+    .container_2{
+        text-align: center;
+        margin-right: -20px;
+        margin-top: 34px;
+    }
+    
+    .blok_instagram{
+        margin-right: 112px; 
+    }
+
+    .blok_telegram{
+        margin-left: 8px;
+        margin-right: 37px;
+    }
+
+    .h2_cont{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: normal;
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .wrapper{
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+
+    .top{
+        display: flex;
+    }
+
+    .line_01{
+        width: 400px;
+    }
+
+    .padding-site{
+        padding-left: 129px;
+        padding-right: 129px;
+    }
+
+    .header{
+        display: block;
+        width: 910px;
+        height: 60px;
+        float: left;
+    
+        background: white;
+        /*display: flex;*/
+        border-bottom: 1px solid black;
+
+    }
+    
+    .header__list{
+        display: flex;
+    }
+
+    .about{
+        position: relative;
+        left: 18px;
+        top: 21px;
+
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        line-height: normal;
+        text-align: center;
+
+        color: #000;
+    
+        text-decoration: none;
+    }
+
+    .about:hover{
+        text-decoration: line-through ;
+        font-weight: 400; 
+    }
+
+    .about:active{
+        text-decoration: line-through ;
+        font-weight: 400;  
+    }
+
+    .project{
+        position: relative;
+
+        
+        left: 42px;
+        top: 21px;
+
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        line-height: normal;
+        text-align: center;
+
+        color: #000;
+    
+        text-decoration: none;
+        
+    }
+    .project:hover{
+        text-decoration: line-through ;
+        font-weight: 400; 
+    }
+
+    .project:active{
+        text-decoration: line-through ;
+        font-weight: 400;  
+    }
+
+    .cont{
+        position: relative;
+
+        left: 66px;
+        top: 21px;
+    
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        line-height: normal;
+        text-align: center;
+    
+        color: #000;
+        
+        text-decoration: none;
+    }
+    
+    .cont:hover{
+        text-decoration: line-through ;
+        font-weight: 400; 
+    }
+
+    .cont:active{
+        text-decoration: line-through ;
+        font-weight: 400;  
+    }
+
+    .wrapp_about{
+        list-style-type: none;
+    }
+
+    .wrapp_project{
+        list-style-type: none;
+    }
+
+    .wrapp_cont{
+        list-style-type: none;
+    }
+
+    .front_page{
+        height: 680px;
+    }
+
+    .logo{
+        height: 287px;
+        display: flex;
+        margin-top: 205px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .letter_s{
+        width: 190px;
+        height: 240px;
+    }
+
+    .moon{
+        width: 210px;
+        height: 210px;
+    }
+
+    .letter_n{
+        width: 190px;
+        height: 190px;
+    }
+
+    .letter_ia{
+        width: 190px;
+        height: 190px;
+    }
+
+    .text_web-designer{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        padding-top: 64px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: 0.2em;
+
+        color: #000000;
+
+        width: 410px;
+    }
+
+    .h2{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        
+        color: #FFFFFF; 
+
+        padding-bottom: 54px;
+        padding-top: 20px;
+    }
+
+    .text-photo__wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 1076px;
+    }
+
+    .my_photo{
+        width: 50%;
+        height: 50%;
+    }
+
+    .text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 0.03em;
+        
+        color: #FFFFFF;
+
+        width: 50%;
+    }
+
+    .bottom{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 42px;
+        
+        color: #FFFFFF;  
+        padding-top: 20px;
+        padding-bottom: 30px;      
+    }
+
+    .h2_White{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        
+        color: #000000;
+
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+
+    .container{
+        max-width: 1180px;
+    }
+
+    .photo-projekt{
+       height: 480px;
+       width: 480px;
+    }
+
+    .photo-projekt:hover{
+        box-shadow: 0px 0px 30px rgba(7, 7, 7, 0.3);
+        transition: box-shadow .15s ease-out;
+    }
+
+    .photo-projekt-sendit{
+        background-size: contain;
+        margin-right: 80px;
+        margin-bottom: 40px;
+    }
+
+    .photo-projekt-sendit:hover{
+        background-image: url(Paints/sendit-color.jpg)
+    }
+
+    .photo-projekt-hotel{
+        background-size: contain;
+        margin-bottom: 40px;
+    }
+
+    .photo-projekt-yandex{
+        background-size: contain;
+        margin-right: 80px;
+        margin-bottom: 40px;
+    }
+
+    .photo-projekt-cat{
+        background-size: contain;
+        margin-bottom: 40px;
+    }
+
+    .footer{
+        height: 300px;
+    }
+
+    .h2_cont{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    padding-top: 40px;
+    margin-bottom: 40px;
+    }
+
+    .container_2{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .blok_instagram{
+        margin-right: 0px;
+    }
+
+    .blok_telegram{
+        margin-right: 0px;
+    }
+
+    .blok_contacts{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .logo{
+        height: 287px;
+        display: flex;
+        margin-top: 205px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .letter_s{
+        width: 224px;
+        height: 240px;
+    }
+
+    .moon{
+        width: 333px;
+        height: 333px;
+    }
+
+    .letter_n{
+        width: 224px;
+        height: 240px;
+    }
+
+    .letter_ia{
+        width: 224px;
+        height: 240px;
+    }
+}

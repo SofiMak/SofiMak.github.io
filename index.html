@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Мое портфолио</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $("#header__list").on("click","a", function (event) {
+               event.preventDefault();
+               var id  = $(this).attr('href'),
+                   top = $(id).offset().top;
+               $('body,html').animate({scrollTop: top}, 1000);
+           });
+       });
+       </script>
+</head>
+<body class="body">
+    <div class="wrapper">
+            <div class="top">
+                    <div class="line_0"></div>
+                    <div class="header">
+                            <ul class="header__list" id="header__list">
+                                    <li class="wrapp_about"><a class="about" href="#about"> Обо мне</a></li>
+                                    <li class="wrapp_project"><a class="project" href="#project">Мои работы</a></li>
+                                    <li class="wrapp_cont"><a class="cont" href="#contacts">Контакты</a></li>
+                            </ul>
+                        </div>
+                    <div class="line_01"></div>
+                </div>
+    </div>
+    <div class="center">
+       <div class="wrapper">
+            <div class="front_page">
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                    <div class="line_3"></div>
+                    <div class="line_4"></div>
+                    <div class="line_5"></div>
+                    <div class="line_6"></div>
+                    <div class="line_9"></div>
+                    <div class="logo">
+                    <div class="letter_s">
+                            <svg class="letter" width="224" height="240" viewBox="0 0 224 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M223.45 157.756C222.595 174.001 217.584 188.377 208.419 200.882C199.254 213.28 186.361 222.899 169.741 229.739C153.244 236.58 134.363 240 113.1 240C78.0273 240 50.4092 230.007 30.2455 210.02C10.0818 190.033 0 161.817 0 125.371V113.828C0 90.9552 4.52155 70.9686 13.5646 53.8677C22.7299 36.66 35.8669 23.4068 52.9754 14.1082C70.084 4.70274 89.8811 0 112.367 0C144.751 0 170.78 7.48163 190.455 22.4449C210.13 37.3013 221.312 57.8223 224 84.008H159.843C159.354 69.7929 155.26 59.5858 147.561 53.3868C139.863 47.1877 128.131 44.0882 112.367 44.0882C96.3579 44.0882 84.6263 49.3253 77.1719 59.7996C69.7174 70.2739 65.8069 87.0007 65.4403 109.98V126.493C65.4403 151.396 68.9842 169.192 76.072 179.88C83.2821 190.568 95.6247 195.912 113.1 195.912C127.887 195.912 139.19 192.866 147.011 186.774C154.833 180.681 158.987 171.009 159.476 157.756H223.45Z" fill="#111113"/>
+                            </svg>
+                    </div>
+                    <div class="moon_wrapper"><div class="moon"></div></div>
+                    <div class="letter_n">
+                        <svg class="letter" width="224" height="240" viewBox="0 0 224 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M224 240H159.763V139.78H64.6048V240H0V0H64.6048V95.2747H159.763V0H224V240Z" fill="#111113"/>
+                            </svg>
+                    </div>
+                    <div class="letter_ia">
+                        <svg class="letter" width="224" height="240" viewBox="0 0 224 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M157.236 240V155.769H118.923L72.2642 240H0L56.7113 136.154C32.0542 122.198 19.7257 101.703 19.7257 74.6703C19.7257 50.9341 28.7034 32.5824 46.6588 19.6154C64.6142 6.53846 90.4725 0 124.234 0H224V240H157.236ZM86.1101 79.7802C86.1101 91.978 88.9551 100.824 94.6452 106.319C100.335 111.813 109.882 114.56 123.285 114.56H157.236V44.6703H123.665C110.388 44.6703 100.778 47.6923 94.8349 53.7363C89.0183 59.6703 86.1101 68.3516 86.1101 79.7802Z" fill="#111113"/>
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="text_web-designer">Web designer</div>
+                </div>
+       </div>
+        <div class="about_me padding-site">
+            <div class="wrapper">
+                <h2 id="about" class="h2">Обо мне</h2>
+            <div class="text-photo__wrapper">
+                <img class="my_photo" src="Paints/photo.png"alt="фото">
+                <p class="text">
+                    Привет! Меня зовут Соня,
+                    я начинающий веб-дизайнер из Екатеринбурга.
+                    Я умею работать в Figma, Sketch, Photoshop, Illustrator и Adobe After Effects.
+                    Опыт работы ~ 6 месяцев. Есть желание учиться и развиваться. 
+                </p>
+            </div>
+            </div>
+            <a href="#contacts" class="bottom">Написать мне</a>
+        </div>
+        <div class="My_project padding-site">
+            <h2 id="project" class="h2_White">Мои работы</h2>
+            <div class="container">
+                <a class="projekt" href="https://www.figma.com/file/bWrK8kyqACFj02rlGuNUbSBZ/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82?node-id=0%3A1">
+                    <div class="photo-projekt photo-projekt-sendit">
+                    <div class="text_block">
+                        <h3 class="h3_projekt">Мой первый проект</h3>
+                        <p class="p_projekt">У всех был первый раз</p>
+                    </div>
+                </div>
+                </a>
+                <a class="projekt" href="https://www.figma.com/file/S4xbp1ryE8ejF8N66buspQWf/Hotel?node-id=0%3A1">
+                        <div class="photo-projekt photo-projekt-hotel">
+                        <div class="text_block">
+                            <h3 class="h3_projekt">Мой второй проект</h3>
+                        </div>
+                    </div>
+                </a>
+                <a class="projekt" href="https://www.figma.com/file/SMYyb01nRezmGHueGaBfvfpt/%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D1%83%D0%B3%D0%BE%D0%BB%D0%BE%D0%BA?node-id=0%3A1">
+                        <div class="photo-projekt photo-projekt-yandex">
+                        <div class="text_block">
+                            <h3 class="h3_projekt">Тестовое задание от Яндеска</h3>
+                        </div>
+                    </div>
+                </a>
+                <a class="projekt" href="https://www.figma.com/file/HyPP6IzSkUW8m4UXCuGaT0j4/%D0%A1%D0%BF%D0%B0%D1%81%D0%B5%D0%BC-%D0%9F%D1%83%D1%88%D0%B8%D0%BD-%D0%BA%D0%BE%D1%82%D0%B0?node-id=0%3A1">
+                        <div class="photo-projekt photo-projekt-cat">
+                        <div class="text_block">
+                            <h3 class="h3_projekt">Спасем Пушин кота!</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        
+        </div>
+    <div class="footer">
+            <div class="contacts padding-site">
+                    <h2 id="contacts" class="h2_cont">Контакты</h2>
+                   <div class="container_2">
+                    <div class="blok_contacts">
+                        <a class="icon icon_mail" href="mailto:makhaeva.sofia@yandex.ru"></a>
+                        <a class="name_cont" href="mailto:makhaeva.sofia@yandex.ru">makhaeva.sofia@yandex.ru</a>
+                    </div>
+                    <div class="blok_contacts">
+                        <a class="icon icon_vk" href="https://vk.com/mininasony"></a>
+                        <a class="name_cont" href="https://vk.com/mininasony">Махаева Софья</a>
+                    </div>
+                    <div class="blok_contacts blok_instagram">
+                        <a class="icon icon_instagramm" href="https://www.instagram.com/sofiamakhaeva/"></a>
+                        <a class="name_cont" href="https://www.instagram.com/sofiamakhaeva/">sofiamakhaeva</a>
+                    </div>
+                    <div class="blok_contacts blok_telegram">
+                        <div class="icon icon_telegram"></div>
+                        <div class="name_cont">@sofiamakhaeva</div>
+                     </div>
+                   </div>
+            </div>
+    </div>
+</div>
+
+</body>
+</html>
